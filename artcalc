@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet'>
+    <style>
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      body {
+        background-color: #100202;
+        color: #c1dbb6; 
+        font-family: 'Libre Baskerville', serif;
+      }
+
+      p {
+        color: #910069;
+      }
+
+      h1 {
+        color: #910069;
+      }
+
+      input {
+        font-family: 'Libre Baskerville', serif;
+        margin-left: 3%;
+        font-size: 18px;
+        font-weight: 700;
+        border-color: #100202;
+        border-style: double;
+        background-color: #100202;
+        color: #ade895;
+        width: 200px;
+      }
+
+      .output {
+        color: #910069;
+      }
+
+      #result {
+        font-weight: 100;
+        color: #ade895;
+      }
+
+
+    </style>
+  </head>
+<h1>/// art calculator for john!!! ///</h1>
+
+<!-- this is a comment for some fucking reason wtf html based actualluyy -->
+
+<p> hangingHeight = (paintingHeight / 2) - hangerToTop + eyeLevel</p>
+<br>
+
+<h4>&gt; painting height : <input type="number" id="paintingHeight" placeholder="put numberz here!"></h4>
+<h4>&gt; hanger-to-top height : <input type="number" id="hangerToTop" placeholder="put numberz here!"></h4>
+<h4>&gt; eye-level height : <input type="number" id="eyeLevel" placeholder="put numberz here!"></h4>
+<br>
+<p class="output"><b>the hook should be &nbsp;<span id="result"> </span>&nbsp; inches from the floor.</b></p>
+
+
+  <script>
+    const pHeight = document.getElementById("paintingHeight");
+    const htTop = document.getElementById("hangerToTop");
+    const eLev = document.getElementById("eyeLevel") 
+    const resultElement = document.getElementById("result");
+
+    function calculateHangingHeight() {
+      result.textContent = (Number(pHeight.value) / 2) - Number(htTop.value) + Number(eLev.value);
+    }
+
+    pHeight.addEventListener('input', calculateHangingHeight);
+    htTop.addEventListener('input', calculateHangingHeight);
+    eLev.addEventListener('input', calculateHangingHeight);
+  </script>
+
+<!-- image here somewher prolly -->
+<img src="image-gallery/manateescutest.png" alt="cuet manatees definitely swimming with a text saying you got this to john" class="inline"/>
+
+
+</html>
+
+<!-- end of file... -->
+
+
