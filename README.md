@@ -1,3 +1,7 @@
 welcome  to  the
 # tonicotheque
-hope you enjoy it.
+glad to have you
+and glad to have 
+something to work on
+
+<3
