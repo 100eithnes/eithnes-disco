@@ -105,6 +105,7 @@ hr {
   right: 2.4vw;
   display: flex;
   flex-direction: column;
+  gap: 1px;
 }
 .navigation {
   position: static;
