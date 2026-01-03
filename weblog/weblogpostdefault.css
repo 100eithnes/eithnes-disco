@@ -90,5 +90,6 @@ hr {
 }
 
 .bloglink:hover {
-  color: #910069;
+  background-color: #dfd6c2;
+  color: #100202;
 }
