@@ -84,7 +84,6 @@
         font-kerning: auto;
         padding: 6px;
       }
-      
       .navlink:hover {
         color: #100202;
         background-color: #9e0058;
@@ -102,16 +101,35 @@
         color: #9e0058;
         padding-left: 1em;
       }
-
       li:before {
         content: ">";
         font-weight: bold;
         padding-right: 5px;
       }
+
+      .navigation {
+        position: absolute;
+        top: 46px;
+        right: 2.4vw;
+
+        font-size: 1.04rem;
+        font-weight: 900;
+        color: #9e0058;
+        background-color: #100202;
+        padding: 6px;
+
+        text-decoration: underline;
+      }
+      .navigation:hover {
+        color: #100202;
+        background-color: #9e0058;
+      }
+      
     </style>
   </head>
 
   <h1> // my cool fucking website // </h1>
+  <a href="index.html" class="navigation">home</a>
 
   <img src="image-gallery/brain.png" class="backgroundimg">
 
