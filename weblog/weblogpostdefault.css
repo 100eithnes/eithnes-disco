@@ -81,3 +81,14 @@ hr {
   height: 3px;
   background-color: #3d2081;
 }
+
+.bloglink {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #dfd6c2;
+  font-kerning: auto;
+}
+
+.bloglink:hover {
+  color: #910069;
+}
