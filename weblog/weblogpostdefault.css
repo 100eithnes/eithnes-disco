@@ -48,6 +48,11 @@ p {
   right: 5%;
 }
 
+.blogimage {
+  width: 50vh;
+  height: 50vh;
+}
+
 .blogdate {
   color: #dfd6c2;
   background: #3d2081;
