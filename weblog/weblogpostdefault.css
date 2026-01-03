@@ -51,6 +51,7 @@ p {
 .blogimage {
   width: 50vw;
   height: 50vw;
+  margin-bottom: 8px;
 }
 
 .blogdate {
