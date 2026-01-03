@@ -95,7 +95,24 @@ hr {
   font-kerning: auto;
   padding: 6px;
 }
-
 .bloglink:hover {
   color: #3d2081;
+}
+
+.navigation {
+  position: absolute;
+  top: 46px;
+  right: 2.4vw;
+
+  font-size: 1.04rem;
+  font-weight: 900;
+  color: #9e0058;
+  background-color: #100202;
+  padding: 6px;
+
+  text-decoration: underline;
+}
+.navigation:hover {
+  color: #100202;
+  background-color: #9e0058;
 }
