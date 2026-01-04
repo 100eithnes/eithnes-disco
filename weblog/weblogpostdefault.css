@@ -51,7 +51,7 @@ p {
 .blogimage {
   width: 50vw;
   height: 50vw;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
 }
 
 .blogdate {
@@ -77,8 +77,8 @@ p {
 }
 
 .blogpost {
-  background: #100202;
-  width: 84%;
+  background: rgba(16, 2, 2, 0.9);
+  width: 83%;
   padding: 4px;
 }
 
