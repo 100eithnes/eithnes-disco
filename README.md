@@ -1,7 +1,8 @@
 welcome  to  the
 # tonicotheque
-glad to have you
-and glad to have 
-something to work on
+<i>under construction at the moment</i>
 
+but we're glad to have you
+
+https://100eithnes.github.io/tonicotheque/
 <3
