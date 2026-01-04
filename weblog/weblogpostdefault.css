@@ -74,11 +74,11 @@ p {
   font-size: 1.15em;
   line-height: 1.55rem;
   margin-bottom: 4px;
-  margin-right: 6px;
+  padding-right: 6px;
 }
 
 .blogpost {
-  background: rgba(16, 2, 2, 0.78);
+  background: rgba(16, 2, 2, 0.85);
   width: 80%;
   padding: 4px;
 }
