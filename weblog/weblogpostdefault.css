@@ -2,8 +2,8 @@ body {
   background-color: #100202;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-top: 32px;
-  margin-left: 14vw;
-  margin-right: 8vw;
+  margin-left: 12.5vw;
+  margin-right: 6vw;
 }
 
 h1 {
@@ -51,7 +51,7 @@ p {
 .blogimage {
   width: 50vw;
   height: 50vw;
-  margin-bottom: 8px;
+  margin-bottom: 14px;
 }
 
 .blogdate {
@@ -78,7 +78,7 @@ p {
 
 .blogpost {
   background: #100202;
-  width: 80%;
+  width: 84%;
   padding: 4px;
 }
 
