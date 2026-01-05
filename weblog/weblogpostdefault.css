@@ -46,7 +46,7 @@ p {
 
 .blogpost {
   width: 80%;
-  max-width: 732px;
+  max-width: 744px;
 }
 
 .blogtitle {
@@ -106,7 +106,8 @@ p {
   border: 12px solid #100202;
   width: 50vw;
   height: 50vw;
-  min-width: 220px;
+  max-width: 900px;
+  min-width: 230px;
   background: #100202;
   color: #3d2081;
 }
